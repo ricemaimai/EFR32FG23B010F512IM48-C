@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32FG23B010F512IM48" partId="mcu.arm.efr32.fg23.efr32fg23b010f512im48" contextId="com.silabs.sdk.stack.super:4.4.6._-538955229">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EUSART0" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_UARTDRV_EUSART_INST%T%sl_uartdrv_eusart_inst_config.h"/>
+    <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="EUSART1" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_INST%T%sl_iostream_eusart_inst_config.h"/>
+    <property object="EUSART1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PA00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA00%T%sl_emlib_gpio_init_PA00_config.h"/>
+    <property object="PA00" propertyId="pin.name" value="PA00_Push-pull"/>
+    <property object="PA00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA01" propertyId="pin.name" value=""/>
+    <property object="PA02" propertyId="pin.name" value=""/>
+    <property object="PA03" propertyId="pin.name" value=""/>
+    <property object="PA04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA04%T%sl_emlib_gpio_init_PA04_config.h"/>
+    <property object="PA04" propertyId="pin.name" value="PA04_Push-pull"/>
+    <property object="PA04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA05" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA05%T%sl_emlib_gpio_init_PA05_config.h"/>
+    <property object="PA05" propertyId="pin.name" value="PA05_Push-pull"/>
+    <property object="PA05" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA06" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA06%T%sl_emlib_gpio_init_PA06_config.h"/>
+    <property object="PA06" propertyId="pin.name" value="PA06_Push-pull"/>
+    <property object="PA06" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA07" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA07%T%sl_emlib_gpio_init_PA07_config.h"/>
+    <property object="PA07" propertyId="pin.name" value="PA07_Push-pull"/>
+    <property object="PA07" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA08" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA08%T%sl_emlib_gpio_init_PA08_config.h"/>
+    <property object="PA08" propertyId="pin.name" value="PA08_Push-pull"/>
+    <property object="PA08" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA09" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA09%T%sl_emlib_gpio_init_PA09_config.h"/>
+    <property object="PA09" propertyId="pin.name" value="PA09_Push-pull"/>
+    <property object="PA09" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PA10" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PA10%T%sl_emlib_gpio_init_PA10_config.h"/>
+    <property object="PA10" propertyId="pin.name" value="PA10_Push-pull"/>
+    <property object="PA10" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PB00%T%sl_emlib_gpio_init_PB00_config.h"/>
+    <property object="PB00" propertyId="pin.name" value="PB00_Push-pull"/>
+    <property object="PB00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB01" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PB01%T%sl_emlib_gpio_init_PB01_config.h"/>
+    <property object="PB01" propertyId="pin.name" value="PB01_Push-pull"/>
+    <property object="PB01" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB02" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PB02%T%sl_emlib_gpio_init_PB02_config.h"/>
+    <property object="PB02" propertyId="pin.name" value="PB02_Push-pull"/>
+    <property object="PB02" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PB03%T%sl_emlib_gpio_init_PB03_config.h"/>
+    <property object="PB03" propertyId="pin.name" value="PB03_Push-pull"/>
+    <property object="PB03" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC00%T%sl_emlib_gpio_init_PC00_config.h"/>
+    <property object="PC00" propertyId="pin.name" value="PC00_Push-pull"/>
+    <property object="PC00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC01" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC01%T%sl_emlib_gpio_init_PC01_config.h"/>
+    <property object="PC01" propertyId="pin.name" value="PC01_Input"/>
+    <property object="PC01" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC02" propertyId="pin.name" value="TX"/>
+    <property object="PC03" propertyId="pin.name" value="RX"/>
+    <property object="PC04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC04%T%sl_emlib_gpio_init_PC04_config.h"/>
+    <property object="PC04" propertyId="pin.name" value="PC04_Input"/>
+    <property object="PC04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC05" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC05%T%sl_emlib_gpio_init_PC05_config.h"/>
+    <property object="PC05" propertyId="pin.name" value="PC05_Input"/>
+    <property object="PC05" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC06" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC06%T%sl_emlib_gpio_init_PC06_config.h"/>
+    <property object="PC06" propertyId="pin.name" value="PC06_Push-pull"/>
+    <property object="PC06" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC07" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC07%T%sl_emlib_gpio_init_PC07_config.h"/>
+    <property object="PC07" propertyId="pin.name" value="PC07_Input"/>
+    <property object="PC07" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC08" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC08%T%sl_emlib_gpio_init_PC08_config.h"/>
+    <property object="PC08" propertyId="pin.name" value="PC08_Input"/>
+    <property object="PC08" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PC09" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PC09%T%sl_emlib_gpio_init_PC09_config.h"/>
+    <property object="PC09" propertyId="pin.name" value="PC09_Input"/>
+    <property object="PC09" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD00" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_LED1%T%sl_emlib_gpio_init_LED1_config.h"/>
+    <property object="PD00" propertyId="pin.name" value="LED1"/>
+    <property object="PD00" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD01" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_LED2%T%sl_emlib_gpio_init_LED2_config.h"/>
+    <property object="PD01" propertyId="pin.name" value="LED2"/>
+    <property object="PD01" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD02" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PD02%T%sl_emlib_gpio_init_PD02_config.h"/>
+    <property object="PD02" propertyId="pin.name" value="PD02_Input"/>
+    <property object="PD02" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PD03%T%sl_emlib_gpio_init_PD03_config.h"/>
+    <property object="PD03" propertyId="pin.name" value="PD03_Push-pull"/>
+    <property object="PD03" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PD04%T%sl_emlib_gpio_init_PD04_config.h"/>
+    <property object="PD04" propertyId="pin.name" value="PD04_Push-pull"/>
+    <property object="PD04" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PD05" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_PD05%T%sl_emlib_gpio_init_PD05_config.h"/>
+    <property object="PD05" propertyId="pin.name" value="PD05_Push-pull"/>
+    <property object="PD05" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.cts" value="2"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rts" value="3"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="1"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.rx" value="35"/>
+    <property object="PORTIO" propertyId="portio.eusart1.location.tx" value="34"/>
+    <property object="PTI" propertyId="ABModule.selectedRequirement" value="pti%T%SL_RAIL_UTIL_PTI%T%sl_rail_util_pti_config.h"/>
+    <property object="PTI" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
