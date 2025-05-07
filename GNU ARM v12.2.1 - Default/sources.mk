@@ -31,4 +31,5 @@ gecko_sdk_4.4.6/platform/service/device_init/src \
 gecko_sdk_4.4.6/platform/service/iostream/src \
 gecko_sdk_4.4.6/platform/service/mpu/src \
 gecko_sdk_4.4.6/platform/service/system/src \
+gecko_sdk_4.4.6/platform/service/udelay/src \
 

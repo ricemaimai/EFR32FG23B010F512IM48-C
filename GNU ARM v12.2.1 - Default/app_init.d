@@ -63,7 +63,17 @@ app_init.o: ../app_init.c \
  C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\autogen/sl_component_catalog.h \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h \
  C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\config/sl_rail_util_init_inst0_config.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
+ C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\config/emlib_core_debug_config.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
 C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\autogen/sl_rail_util_init.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h:
@@ -129,3 +139,13 @@ C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\aut
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h:
 C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\config/sl_rail_util_init_inst0_config.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
+C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\config/emlib_core_debug_config.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:

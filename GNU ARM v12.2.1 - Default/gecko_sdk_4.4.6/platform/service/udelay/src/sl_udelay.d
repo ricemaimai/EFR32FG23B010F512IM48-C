@@ -1,10 +1,7 @@
-app_process.o: ../app_process.c \
+gecko_sdk_4.4.6/platform/service/udelay/src/sl_udelay.o: \
+ C:/Users/SeigoSakaki/SimplicityStudio/SDKs/gecko_sdk/platform/service/udelay/src/sl_udelay.c \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h \
- C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\autogen/sl_component_catalog.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_features.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im48.h \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h \
@@ -60,23 +57,10 @@ app_process.o: ../app_process.c \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_prs_signals.h \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h \
  c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h \
- C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\config/emlib_core_debug_config.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h \
- c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h
+ C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\autogen/sl_component_catalog.h \
+ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\toolchain\inc\sl_gcc_preinclude.h:
-C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\autogen/sl_component_catalog.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_types.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_features.h:
+c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\em_device.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23b010f512im48.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\cmsis\core\include\core_cm33.h:
@@ -132,14 +116,5 @@ c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_prs_signals.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_dma_descriptor.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\device\siliconlabs\efr32fg23\include\efr32fg23_ldmaxbar_defines.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_gpio.h:
+C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\autogen/sl_component_catalog.h:
 c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_bus.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\emlib\inc\em_core_generic.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_common.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_assert.h:
-C:\Users\SeigoSakaki\SimplicityStudio\v5_workspace\rail_soc_empty_F512IM48-C\config/emlib_core_debug_config.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\common\inc\sl_enum.h:
-c:\users\seigosakaki\simplicitystudio\sdks\gecko_sdk\platform\service\udelay\inc\sl_udelay.h:

@@ -38,6 +38,23 @@
 #include "app_task_init.h"
 #endif
 
+
+#include "em_gpio.h"
+#include "sl_udelay.h"
+#include "stdio.h"
+#include <stdio.h>
+
+
+// -----------------------------------------------------------------------------
+//                                Defines
+// -----------------------------------------------------------------------------
+//LED 用の GPIO　設定
+#define LED1_PORT gpioPortD
+#define LED1_PIN  0
+#define LED2_PORT gpioPortD
+#define LED2_PIN  1
+
+
 // -----------------------------------------------------------------------------
 //                              Macros and Typedefs
 // -----------------------------------------------------------------------------
@@ -57,12 +74,26 @@
 // -----------------------------------------------------------------------------
 //                          Public Function Definitions
 // -----------------------------------------------------------------------------
+
+//LED点滅
+void LED_blinking(){
+  GPIO_PinOutClear(LED1_PORT, LED1_PIN);
+  GPIO_PinOutClear(LED2_PORT, LED2_PIN);
+  sl_udelay_wait(1000000);
+  GPIO_PinOutSet(LED1_PORT, LED1_PIN);
+  GPIO_PinOutSet(LED2_PORT, LED2_PIN);
+  sl_udelay_wait(1000000);
+}
+
 /******************************************************************************
  * Application state machine, called infinitely
  *****************************************************************************/
 void app_process_action(RAIL_Handle_t rail_handle)
 {
   (void) rail_handle;
+
+  LED_blinking();
+
 
   ///////////////////////////////////////////////////////////////////////////
   // Put your application code here!                                       //

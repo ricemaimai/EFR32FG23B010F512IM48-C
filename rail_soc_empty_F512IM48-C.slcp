@@ -46,6 +46,7 @@ component:
   id: rail_util_init
 - {id: rail_util_recommended}
 - {id: sl_system}
+- {id: udelay}
 requires:
 - {name: a_radio_config}
 configuration:
